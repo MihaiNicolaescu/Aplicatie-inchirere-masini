@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="640.0" prefWidth="1240.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Promo">
+   <children>
+      <Button fx:id="backBtn" layoutX="1156.0" layoutY="558.0" mnemonicParsing="false" onAction="#back" prefHeight="50.0" prefWidth="50.0" text="Back" />
+      <Label layoutX="465.0" layoutY="217.0" text="Reducere pentru clientii noi veniti 25%!" textFill="#ab1919">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="475.0" layoutY="244.0" text="*Reducearea se aplica la efectuarea platii in showroom." />
+   </children>
+</AnchorPane>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1240.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Termeni">
+   <children>
+      <Label layoutX="511.0" layoutY="31.0" text="Termeni si conditii">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Button fx:id="back" layoutX="1151.0" layoutY="656.0" mnemonicParsing="false" onAction="#back" prefHeight="50.0" prefWidth="75.0" text="Back" />
+      <Label layoutX="52.0" layoutY="95.0" text="1. La bordul masinii (mijlocului de transport) inchiriat, actele acestuia sunt prezente in copie xerox,">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="52.0" layoutY="122.0" text="2. Durata contractului este de 24 de ore, indivizibile, de la ora la care se face contractul de inchiriere, plus sau minus 2(doua) ore">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="52.0" layoutY="149.0" text="3. La dorinta clientului, contractul se poate prelungi cu conditia platii integrale a numarului de zile cu care se prelungeste contractul">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="52.0" layoutY="176.0" text="4. Rovigneta sau taxa de drum este inclusa in pretul inchirierii, indiferent de perioada de inchiriere .">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="52.0" layoutY="203.0" text="5. Daca din vina clientului s-a produs o avarie autoturismului inchiriat, duce la pierderea garantiei.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="52.0" layoutY="230.0" text="6. Asigurarile acopera toate daunele din evenimente rutiere, care sunt provocate de alt participant la trafic">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="53.0" layoutY="257.0" text="7. Asigurarile nu acopera daunele provocate din erori de pilotaj, zgarieturi, capace roti sparte sau pierdute, pana de cauciuc, etc.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="52.0" layoutY="284.0" text="8. Asigurarile nu despagubesc furtul din autoturism a obiectelor de valoare, a banilor, precum si a oricaror acte de valoare sau a documentelor de plata.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

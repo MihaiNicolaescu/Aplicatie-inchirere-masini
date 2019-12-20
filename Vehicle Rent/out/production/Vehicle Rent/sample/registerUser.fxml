@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.RegisterUser">
+   <children>
+      <Label layoutX="344.0" layoutY="187.0" text="Username">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="344.0" layoutY="239.0" text="Password">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="344.0" layoutY="300.0" text="Verify password">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="cancelButton" layoutX="441.0" layoutY="359.0" mnemonicParsing="false" onAction="#cancelRegister" text="Cancel" />
+      <Button fx:id="confirmRegister" layoutX="344.0" layoutY="359.0" mnemonicParsing="false" onAction="#register" text="Register" />
+      <TextField fx:id="username" layoutX="342.0" layoutY="212.0" />
+      <TextField fx:id="password" layoutX="342.0" layoutY="264.0" />
+      <TextField fx:id="passwordCheck" layoutX="344.0" layoutY="325.0" />
+      <Label fx:id="messageError" layoutX="225.0" layoutY="411.0" textFill="RED">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

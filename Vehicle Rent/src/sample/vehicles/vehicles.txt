@@ -1,0 +1,7 @@
+6
+1/Dacia/Maro/Sedan/Are 4 roti + GPL/admin/dacia/15
+2/BMW/Albastru/Break/Navigatie/0/bmw/12
+3/Tesla/Alb/Suv/Electric car/0/tesla/12
+4/Ford/albastru/Sedan/Navigatie/0/ford/11
+5/Opel/Alb/Suv/Suv/mihai/opel/26
+6/Necunoscuta/Gri/F1/Rapida/0/formula/300

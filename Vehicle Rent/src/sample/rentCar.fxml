@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Rent">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="720.0" prefWidth="1240.0">
+         <children>
+            <ImageView fx:id="vehImage" fitHeight="300.0" fitWidth="500.0" layoutX="500.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="250.0" AnchorPane.topAnchor="66.0">
+            </ImageView>
+            <Label fx:id="vehName" contentDisplay="CENTER" layoutX="456.0" layoutY="343.0" text="Vehicle name" textAlignment="CENTER" AnchorPane.leftAnchor="542.0" AnchorPane.topAnchor="380.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="vehColor" contentDisplay="CENTER" layoutX="543.0" layoutY="405.0" text="Culoare" textAlignment="CENTER" AnchorPane.leftAnchor="543.0" AnchorPane.topAnchor="405.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="type" contentDisplay="CENTER" layoutX="542.0" layoutY="430.0" text="Tip" textAlignment="CENTER" AnchorPane.leftAnchor="542.0" AnchorPane.topAnchor="430.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="description" contentDisplay="CENTER" layoutX="544.0" layoutY="455.0" text="Descriere -GPS -ABS  -Clima" textAlignment="CENTER" AnchorPane.leftAnchor="544.0" AnchorPane.topAnchor="455.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Button fx:id="rentACar" layoutX="540.0" layoutY="515.0" mnemonicParsing="false" onAction="#rentThisCar" prefHeight="50.0" prefWidth="100.0" text="Inchiriaza" AnchorPane.leftAnchor="540.0" AnchorPane.topAnchor="515.0" />
+            <Button layoutX="485.0" layoutY="469.0" mnemonicParsing="false" onAction="#showVehiclePrev" prefHeight="50.0" prefWidth="50.0" text="&lt;" AnchorPane.leftAnchor="241.0" AnchorPane.topAnchor="200.0" />
+            <Button fx:id="next" layoutX="666.0" layoutY="469.0" mnemonicParsing="false" onAction="#showVehicleNext" prefHeight="50.0" prefWidth="50.0" text="&gt;" AnchorPane.leftAnchor="918.0" AnchorPane.topAnchor="200.0" />
+            <Label fx:id="price" contentDisplay="CENTER" layoutX="544.0" layoutY="480.0" text="Pret/zi: " textAlignment="CENTER">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="messageRent" layoutX="508.0" layoutY="26.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Button fx:id="returnCar" layoutX="540.0" layoutY="515.0" mnemonicParsing="false" onAction="#returnThisCar" prefHeight="50.0" prefWidth="100.0" text="Returneaza" AnchorPane.leftAnchor="540.0" AnchorPane.topAnchor="515.0" />
+            <Button fx:id="backBtn" layoutX="1068.0" layoutY="613.0" mnemonicParsing="false" onAction="#back" prefHeight="50.0" prefWidth="50.0" text="Back" AnchorPane.topAnchor="600.0" />
+            <Label fx:id="messageAdmin" layoutX="68.0" layoutY="650.0" prefHeight="28.0" prefWidth="973.0" textAlignment="CENTER">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Button fx:id="forceReturn" layoutX="529.0" layoutY="575.0" mnemonicParsing="false" onAction="#returnareFortata" prefHeight="50.0" text="Anuleaza inchirierea" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>

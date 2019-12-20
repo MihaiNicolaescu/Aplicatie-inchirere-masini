@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Meniu">
+   <children>
+      <Button fx:id="rent" layoutX="325.0" layoutY="250.0" mnemonicParsing="false" onAction="#rent" prefHeight="50.0" prefWidth="150.0" text="Inchiriaza vehicul">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="termsAndCondition" layoutX="325.0" layoutY="313.0" mnemonicParsing="false" onAction="#termsAndConditions" prefHeight="50.0" prefWidth="150.0" text="Termeni &amp; Conditii">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button layoutX="325.0" layoutY="376.0" mnemonicParsing="false" onAction="#promo" prefHeight="50.0" prefWidth="150.0" text="Reduceri de iarna">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="logoutBtn" layoutX="325.0" layoutY="439.0" mnemonicParsing="false" onAction="#back" prefHeight="50.0" prefWidth="150.0" text="Deconectare">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="addVehicle" layoutX="374.0" layoutY="205.0" mnemonicParsing="false" onAction="#addVeh" prefHeight="50.0" prefWidth="150.0" text="Adauga vehicul" AnchorPane.leftAnchor="327.0" AnchorPane.topAnchor="184.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

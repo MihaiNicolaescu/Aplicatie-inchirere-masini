@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1240.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AddVehicle">
+   <children>
+      <ListView fx:id="viewCars" layoutX="24.0" layoutY="14.0" prefHeight="233.0" prefWidth="1202.0" />
+      <TextField fx:id="detVeh" layoutX="275.0" layoutY="433.0" prefHeight="25.0" prefWidth="262.0" />
+      <TextField fx:id="colorVeh" layoutX="275.0" layoutY="401.0" prefHeight="25.0" prefWidth="262.0" />
+      <TextField fx:id="nameVeh" layoutX="275.0" layoutY="368.0" prefHeight="25.0" prefWidth="262.0" />
+      <TextField fx:id="typeVeh" layoutX="275.0" layoutY="464.0" prefHeight="25.0" prefWidth="262.0" />
+      <TextField fx:id="priceVeh" layoutX="275.0" layoutY="495.0" prefHeight="25.0" prefWidth="262.0" />
+      <Label layoutX="109.0" layoutY="367.0" text="Marca autovehicul">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="201.0" layoutY="400.0" text="Culoare">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="210.0" layoutY="432.0" text="Detalii">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="136.0" layoutY="463.0" text="Tip autovehicul">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="210.0" layoutY="494.0" text="Pret/zi">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="135.0" layoutY="530.0" text="Imagine vehicul">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="addVehBtn" layoutX="333.0" layoutY="575.0" mnemonicParsing="false" onAction="#addCar" prefHeight="50.0" prefWidth="147.0" text="Adauga masina">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="backBtn" layoutX="1142.0" layoutY="638.0" mnemonicParsing="false" onAction="#back" prefHeight="50.0" prefWidth="50.0" text="Inapoi" />
+      <TextField fx:id="imageName" layoutX="275.0" layoutY="531.0" prefHeight="25.0" prefWidth="262.0" />
+      <Label fx:id="errorMessage" layoutX="770.0" layoutY="372.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
